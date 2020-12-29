@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="root">
+      <div className="container">
+        <div className="row pt-4">
+          <div className="col">
+            <h1><span className="text-style">Chillies</span></h1>
+            <h3 className="p-2">Nhóm nhạc</h3>
+          </div>
+
+          <div className="col">
+            Chillies là một nhóm nhạc gồm 5 thành viên: Khang, Nhím, Phước, Đức và Phú. Nhóm được thành lập vào tháng 10 năm 2018 và được quản lý bởi công ty, hãng đĩa Warner Music Vietnam.
+          </div>
+
+          <div className="col">
+            Chillies là một nhóm nhạc gồm 5 thành viên: Khang, Nhím, Phước, Đức và Phú. Nhóm được thành lập vào tháng 10 năm 2018 và được quản lý bởi công ty, hãng đĩa Warner Music Vietnam.
+          </div>
+        </div>
+      </div>
     </div>
-  );
+
+
+  )
 }
 
-export default App;
+
